@@ -8,13 +8,13 @@
     font-size: 60%;
     --menu-footer: 600 1.1rem 'Nunito', sans-serif ; 
     --menu-header: 700 1.8rem 'Nunito', sans-serif ;  
-    --font-text: 500 1.7rem/1.4 'Nunito', sans-serif;
+    --font-text: 500 2rem/1.4 'Nunito', sans-serif;
     --font-h2: 800 1.7rem 'Acme', sans-serif; 
     --font-title-mobile: 700 4rem 'Grandstander', cursive;
     --font-title: 700 5rem 'Grandstander', cursive;
 }
 
-/*  CRIANDO GRID - mobile first        */
+/*  CRIANDO GRID   */
 .container {display: grid; height: 100vh;  grid-template-columns: repeat(4, 1fr); grid-template-rows: repeat(4, 1fr); 
     grid-template-areas:"header header header header"
                         "main main main main"

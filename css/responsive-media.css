@@ -9,6 +9,7 @@
 
     .header-title h1 a {font: var(--font-title);}
     .header-title {padding-left: 1rem;}
+    
 
     /*   ajustando o menu        */
     .header-nav { width: 40%;}
