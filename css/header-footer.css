@@ -1,0 +1,28 @@
+/* configs do header */
+.box-header {display: flex; flex-direction: row; justify-content: space-between; align-items: center; padding: 0 1rem; height: 10vh; background: #1A3D7B;}
+.header-title { width: 40%; text-align: start; }
+.header-title h1 a {font: var(--font-title-mobile); color: #fff;  }
+.header-nav { width: 55%;}
+.box-nav { display: flex; justify-content: space-between; align-items: center;}
+.box-nav li a {color: #fff; text-transform: uppercase;  font: var(--menu-header); text-shadow: 1.5px 1.5px 1.5px rgb(37, 12, 94); transition: 2s;} 
+.box-nav li a:hover {color: rgb(160, 159, 159);  transition: 1s; }
+.box-nav li a:active {background: red;}
+
+
+
+
+/* configs da section dicas   */
+.news-title {width: 100%; text-align: center; padding-top: 2rem; font: var(--font-h2); }
+.box-news {border: 1px solid black; border-radius: 2rem; margin: 2rem auto; width: 90%; padding: .6rem; box-shadow: .5px .5px 1.5px 0.5px #000; font: var(--font-text); } 
+.box-news p, .box-news h3 {text-align: justify; width: 90%; margin: 0 auto;}
+.box-news h3 {font-size: 1.7rem; letter-spacing: .5rem; text-transform: uppercase;}
+.box-news a {color: rgb(56, 54, 54);}
+
+
+
+/* configs do footer  */
+.nav-footer { display: flex; justify-content: start; width: 90%; margin: 1rem auto;  text-align: start;  }
+.box-nav-footer {display: flex;  }
+.box-nav-footer li a{padding-right: 1rem; color: #a19c9c; margin-right: 1rem; border-right: 1px solid white; text-transform: uppercase; letter-spacing: 0.2rem; transition: all 1s; font: var(--menu-footer)}
+.box-nav-footer li a:hover {border-bottom: 1px solid rgba(255, 255, 255, .2); border-radius: .4em; transition: all 1.2s; }
+.box-copyright { width: 90%; margin: 0 auto; text-align: start; line-height: 1.8rem; color: rgba(255, 255, 255, .5); font-size: 1.1rem; font-family: 'Viga', sans-serif; }

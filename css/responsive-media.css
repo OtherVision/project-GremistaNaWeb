@@ -1,0 +1,44 @@
+/*     ajustando layout responsivo para telas maiores     */
+
+@media (min-width: 1000px ) {
+
+
+    #main {display: flex; align-items: center; justify-content: space-between; position: relative; height: 135vh; width: 100%; overflow: hidden;   }
+    .articles  {height: auto; width: 30vw; margin-top: 60rem; }
+    
+
+    .header-title h1 a {font: var(--font-title);}
+    .header-title {padding-left: 1rem;}
+
+    /*   ajustando o menu        */
+    .header-nav { width: 40%;}
+    .box-nav {  justify-content: space-around; }
+    
+    /*     box imagem gremista e jogo da seman     */
+    .box-primary-infos { height: 65vh; max-width: 100%; width: 100%; display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; grid-template-areas: "box1 box3" "box1 box3"; grid-gap: 1rem;  position: absolute; top: 2rem;  }
+    .box1 {width: auto; grid-area: box1; background: rgb(0, 0, 0); color: white; border-radius: 3rem;}
+   
+    .box3 {height: 100%; grid-area: box3; border-radius: 3rem; overflow: hidden; }
+    .box3 img:hover, .box-img img:focus { transform: scale(1.05);   }
+    .box3 img {width: 100%; height: 100%; object-fit: cover; position: relative; transition: transform 4s;  }
+    .box-image-text { position: absolute; top: 1rem; width: 90%; height: 3rem; font: var(--font-h2);  font-size: 4rem; font-weight: 800; color: white; padding: .9rem; text-shadow: 1px 1px 1px black;  }
+
+    .btn {clear: both; position: absolute; width: 20%; bottom: 0.5rem; right: 40%;}
+
+    #section {display: flex; justify-content: space-between; align-items: center; }
+    .news-title {width: 50%; height: 100%;}
+    .box-news {width: 30%; height: auto;  margin-right: 10rem;}
+
+    /*     box logos times     */
+    .day-games {display: flex; flex-direction: column; align-items: center; justify-content: center;  height: 100%;}
+    .box-logo {width: 100%; height: 10rem; display: flex; justify-content: center; align-items: center; }
+    .box-logo p {font-size: 4rem; padding: 2rem; text-shadow: 1px 1px 1px blue;}
+    .box-logo img {width: 16rem; height: 16rem; padding-top: 1rem;}
+    .info-jogos {text-align: center; margin-top: 8rem; font-size: 2rem; font: var(--menu-header);}
+}
+
+@media (max-width:1350px ) {
+    .box-news { width: 90%;}
+    .news-title {width: 100%;}
+    .box-new {width: 100%; display: inline; }
+}

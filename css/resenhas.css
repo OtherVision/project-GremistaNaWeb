@@ -1,0 +1,24 @@
+#main {height: autoh; display: flex; flex-direction: column;}
+.box-resenha { width: 100%; height: 40rem; background: white; display: flex; justify-content: center; align-items: center; margin: 0.5rem 0; ; transition: all 1s;}
+.box-resenha:hover { transform: scale(0.99); background: rgb(243, 240, 240); }
+
+.img-box {  display: flex; justify-content: center; align-items: center;}
+.img-box a img {width: 100%; margin: 0 auto;  height: auto; object-fit: contain; }
+.box-text {width: 100%; height: auto; text-align: justify; margin-right: 2rem;  }
+.box-text a h2 {text-align: center; font: var(--font-h2); color: black; }
+.box-text a p {font: var(--font-text); color: black; }
+
+
+
+@media (min-width: 1000px ) {
+    #main {background: white;}
+
+    .box-resenha {border-bottom: 1px solid black; width: 80%;}
+    .box-resenha:hover { background: white; }
+    .box-resenha:last-child{border-bottom: none;}
+
+    #section {border: 1px solid black;}
+
+    .img-box a img {width: 50%;}
+    .box-text a p {font-size: 2rem;}
+}
