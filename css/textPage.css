@@ -1,15 +1,18 @@
-
+.header-title a {font: var( --font-title-mobile); color: white; }
 
 #main {background: white; height: auto;}
 #section {border-top: 1px solid black; margin-top: 5rem;}
 .text-box {background: white; width: 90%; margin: 0 auto; height: auto; display: flex; flex-direction: column; justify-content: space-around; align-items: center;  }
-.text-box h2 {font: var(--font-h2); font-size: clamp(2rem,  4rem, 6rem); padding-top: 5rem;}
+.text-box h1 {font: var(--font-h2); font-size: clamp(2rem,  4rem, 6rem); padding-top: 5rem;}
 .text-box p {font: var(--font-text); font-size: 2rem; padding-top: 5rem;}
 
 
 
 
 @media (min-width: 1000px ) {
+
+    .header-title a {font: var(--font-title);}
+
     #main {height: 100vh;}
     .text-box {height: 100vh; width: 70%;}
     .text-box p {padding-top: 0.1rem; }

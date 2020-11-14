@@ -29,6 +29,7 @@
 /* configs do main */
 
 .articles {width: 100%; margin: 1.5rem auto; height: auto; background: #fff; box-shadow: .5px .5px 1px 1.5px #000; border-radius: 1rem;  }
+.articles:hover {transform: scale(1.01);}
 .articles a {color: rgb(56, 54, 54);}
 .box-img {width: 100%; height: 50%; object-fit: cover;  }
 .box-img img {width: 100%; height: 100%; border-radius: 1rem; }
