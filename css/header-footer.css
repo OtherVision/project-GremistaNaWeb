@@ -12,7 +12,7 @@
 
 
 /* configs da section dicas   */
-.news-title {width: 100%; text-align: center; padding-top: 2rem; font: var(--font-h2); }
+.news-title {width: 100%; font: var(--font-h2); display: flex; align-items: center;justify-content: center; }
 .box-news {border: 1px solid black; border-radius: 2rem; margin: 2rem auto; width: 90%; padding: .6rem; box-shadow: .5px .5px 1.5px 0.5px #000; font: var(--font-text); transition: all 1.2s; } 
 .box-news:hover {transform: scale(1.01); }
 .box-news p, .box-news h3 {text-align: justify; width: 90%; margin: 0 auto;}

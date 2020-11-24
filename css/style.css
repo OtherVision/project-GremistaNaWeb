@@ -28,18 +28,18 @@
 
 /* configs do main */
 
-.articles {width: 100%; margin: 1.5rem auto; height: auto; background: #fff; box-shadow: .5px .5px 1px 1.5px #000; border-radius: 1rem; transition: all 1s;  }
-.articles:hover {transform: scale(1.01);}
+.articles {width: 100%; margin: 1.5rem auto; height: auto; background: #fff; box-shadow: .5px .5px 1px 1.5px #000; border-radius: 1rem;   }
 .articles a {color: rgb(56, 54, 54);}
 .box-img {width: 100%; height: 50%; object-fit: cover;  }
 .box-img img {width: 100%; height: 100%; border-radius: 1rem; }
-.box-text{width: 90%; height: 50%; text-align: center; margin: 0 auto;}
+.box-text{width: 100%; height: 50%; text-align: center; transition: color 0.3s, background 1.5s;}
 .box-text h2 {font: var(--font-h2); text-transform: uppercase;}
-.box-text p {text-align: justify; padding: 1rem 1rem 1rem 1rem; font: var(--font-text);}
+.box-text p {text-align: justify; padding: 2rem; font: var(--font-text);}
+.box-text:hover { color: rgb(11, 46, 107); background: rgb(242, 242, 242); }
 
 .btn {width: 60%;  margin: 0 auto; padding-bottom: 1.5rem;  }
-.btn button {width: 100%; height: 4rem; margin: 0 auto; border-radius: 2rem; border: .1px solid black; cursor: pointer; box-shadow: .1px .1px 0.5px #000; background:#092553; transition: all 1.5s; text-shadow: 1px 1px 1px black;  }
-.btn button:hover {  background: #0b2e6b;   }
+.btn button {width: 100%; height: 4rem; margin: 0 auto; border-radius: 2rem; border: .1px solid black; cursor: pointer; box-shadow: .1px .1px 0.5px #000; background:rgb(9, 37, 83); transition: all 1.5s; text-shadow: 1px 1px 1px black;  }
+.btn button:hover {  background: rgb(11, 46, 107); }
 .btn button a {text-transform: uppercase; font: 700 1.3rem 'Nunito', sans-serif; color: #fff; text-shadow: .2px .2px 0.2px white; letter-spacing: .1rem;}
 
 .box-primary-infos { display: none;}
