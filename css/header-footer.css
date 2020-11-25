@@ -13,12 +13,12 @@
 
 /* configs da section dicas   */
 .news-title {width: 100%; font: var(--font-h2); display: flex; align-items: center;justify-content: center; }
-.box-news {border: 1px solid black; border-radius: 2rem; margin: 2rem auto; width: 90%; padding: .6rem; box-shadow: .5px .5px 1.5px 0.5px #000; font: var(--font-text); transition: all 1.2s; } 
-.box-news:hover {transform: scale(1.01); }
+.box-news {border: 1px solid black; border-radius: 2rem; margin: 2rem auto; width: 90%; padding: .6rem; box-shadow: .5px .5px 1.5px 0.5px #000; font: var(--font-text); transition: all 1.5s; } 
 .box-news p, .box-news h3 {text-align: justify; width: 90%; margin: 0 auto;}
 .box-news h3 {font-size: 1.7rem; letter-spacing: .2rem; text-transform: uppercase; text-align: center;}
 .box-news a {color: rgb(56, 54, 54); font-size: 1.8rem;}
-.box-news a:hover {color: #092553;}
+.box-news a:hover {color: rgb(11, 46, 107);}
+.box-news:hover {background: rgb(240, 240, 240);}
 
 
 

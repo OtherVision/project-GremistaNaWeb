@@ -12,6 +12,8 @@
 .box-text a p {font: var(--font-text); color: black; transition: all 0.5s; }
 .box-text a p:hover {color: #1A3D7B;}
 
+.box-text:hover { background: white;}
+
 
 @media (min-width: 1000px ) {
     #main {background: white;}
