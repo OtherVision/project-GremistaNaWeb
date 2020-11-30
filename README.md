@@ -1,10 +1,5 @@
 # gremistaNaWeb
 
-layout usado com base para o projeto(podendo haver alterações durante o projeto):
-<p align=center>
-    <img src="./img/layout.JPG">
-</p>
-
 >Status do projeto: Em Desenvolvimento  :hourglass_flowing_sand:
 
 ##<strong>Descrição do projeto</strong> :page_facing_up:
